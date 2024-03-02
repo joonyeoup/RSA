@@ -50,8 +50,8 @@ n3 values. Then, I would convert C1, C2, and C3 into a hex file and store it int
 enc1.txt, enc2.txt, and enc3.txt.
 To decrypt/crack the encrypted file, First, I would read in the values of n1, n2, and
 n3. I would then calculate the product of n1, n2, and n3 and store it to N. I would then
-convert the hexfiles of encrypted file C1, C2, and C3 using the same method in problem
-1. As long as there were more bits to read in each C1, C2, C3’s BitVector, I would read in
+convert the hexfiles of encrypted file C1, C2, and C3 using the same method in problem.
+As long as there were more bits to read in each C1, C2, C3’s BitVector, I would read in
 256 bits of each BitVector. If the length wasn’t long enough to be 256 bits, I would pad
 zeros to the right to fulfill the length requirement. I would convert each C1, C2, and C3
 into an integer value and store it as c1, c2, and c3. Then, I would calculate M1 by
